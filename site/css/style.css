@@ -1,0 +1,39 @@
+.banner {
+    border: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.banner-background {
+    background-color: #e6e600;
+    font-style: italic;
+    font-family: "American Typewriter";
+    font-size: large;
+    color: white;
+}
+
+.footer {
+    margin: 30px;
+    background-color: #e6e600;
+    font-family: "American Typewriter";
+}
+
+.address {
+    align-items:center;
+}
+
+.carousel {
+    border: 20px;
+    margin: 20px;
+}
+
+body {
+    background-color: #ffffb3;
+}
+
+.about {
+    background-color: #e6e600;
+    font-family: "American Typewriter";
+}
