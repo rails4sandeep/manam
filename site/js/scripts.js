@@ -25,3 +25,19 @@ $( "html").on('click','#events', function() {
 $( "html").on('click','#home', function() {
     $('#main').load('../partials/_home.html');
 });
+
+$( "html").on('click','#whatsapp', function() {
+    $('#main').load('../partials/_whatsapp.html');
+});
+
+$( "html").on('click','#studentJobRegistration', function() {
+    $('#main').load('../partials/_studentJobRegistration.html');
+});
+
+$( "html").on('click','#travelAssistance', function() {
+    $('#main').load('../partials/_travelAssistance.html');
+});
+
+$( "html").on('click','#logo', function() {
+    $('#main').load('../partials/_home.html');
+});
