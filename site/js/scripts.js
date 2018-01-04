@@ -11,7 +11,7 @@ $( "html").on('click','#about', function() {
 });
 
 $( "html").on('click','#team', function() {
-    $('#main').load('../partials/team.html');
+    $('#main').load('../partials/_team.html');
 });
 
 $( "html").on('click','#blog', function() {

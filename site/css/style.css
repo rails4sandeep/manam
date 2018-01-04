@@ -37,3 +37,9 @@ body {
     background-color: #e6e600;
     font-family: "American Typewriter";
 }
+
+.img-team {
+    border: 0;
+    width: 200px;
+    height: 200px;
+}
