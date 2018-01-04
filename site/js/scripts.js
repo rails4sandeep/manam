@@ -38,6 +38,10 @@ $( "html").on('click','#travelAssistance', function() {
     $('#main').load('../partials/_travelAssistance.html');
 });
 
+$( "html").on('click','#testimonials', function() {
+    $('#main').load('../partials/_testimonials.html');
+});
+
 $( "html").on('click','#logo', function() {
     $('#main').load('../partials/_home.html');
 });
