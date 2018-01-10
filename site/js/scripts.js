@@ -45,3 +45,7 @@ $( "html").on('click','#testimonials', function() {
 $( "html").on('click','#logo', function() {
     $('#main').load('../partials/_home.html');
 });
+
+$('.navbar-collapse div').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
