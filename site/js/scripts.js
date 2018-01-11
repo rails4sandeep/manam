@@ -50,6 +50,8 @@ $( "html").on('click','#sankranti', function() {
     $('#main').load('../partials/_sankranti.html');
 });
 
-$('.navbar-collapse div').click(function(){
-    $(".navbar-collapse").collapse('hide');
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
 });
