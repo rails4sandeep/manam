@@ -46,6 +46,10 @@ $( "html").on('click','#logo', function() {
     $('#main').load('../partials/_home.html');
 });
 
+$( "html").on('click','#sankranti', function() {
+    $('#main').load('../partials/_sankranti.html');
+});
+
 $('.navbar-collapse div').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
