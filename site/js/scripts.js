@@ -42,6 +42,11 @@ $( "html").on('click','#studentJobRegistration', function() {
     $('#carousel').hide();
 });
 
+$( "html").on('click','#jobAssistanceRegistration', function() {
+    $('#main').load('../partials/_jobAssistanceRegistration.html');
+    $('#carousel').hide();
+});
+
 $( "html").on('click','#travelAssistance', function() {
     $('#main').load('../partials/_travelAssistance.html');
     $('#carousel').hide();
